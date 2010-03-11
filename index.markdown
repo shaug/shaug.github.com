@@ -1,3 +1,0 @@
-# Scott Haug
-
-Playing with jekyll. More soon...
