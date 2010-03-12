@@ -1,10 +1,10 @@
 ---
 layout: default
-title: bosshaug
+title: shaug's blog
 ---
 
 {% for post in site.posts limit:1 %}
+<em>Posted on {{ post.date | date_to_string }}.</em>
 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 {{ post.content }}
-<em>Posted on {{ post.date | date_to_string }}.</em>
 {% endfor %}

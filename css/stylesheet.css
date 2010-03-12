@@ -129,10 +129,22 @@ html>body #content {
 	font-size: 90%;
 }
 #sidebar .item a {
-	text-decoration: none;
+/*  text-decoration: none;*/
 }		  
 #sidebar .item a:hover {
-	text-decoration: underline;
+	text-decoration: bold;
+}
+
+#sidebar #tweet ul {
+	font-size: 90%;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+#sidebar #tweet ul li:before {
+	content: "\00BB \0020";
 }
 
 #footer {
